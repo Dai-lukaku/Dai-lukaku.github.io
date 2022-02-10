@@ -137,36 +137,7 @@ html {
     -o-transition: all .3s linear;
     cursor: pointer;
 }
-.button:hover {
-    box-shadow: var(--outer-shadow-o);
-    color: var(--blue-color) !important;
-}
-.col-lg-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-}
 
-@media screen and (max-width: 370px) {
-    .mg-10 {
-    margin: auto 10px;
-    }
-
-}
-a 
-{ 
-    text-decoration: none;
-    color: inherit; 
-} 
-
-.button__message::after
-{
-    content: "Có";
-}
-
-.button__message:hover:after
-{
-    content: "Không";
-}
 
 .col_third
 {
